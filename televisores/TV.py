@@ -1,4 +1,4 @@
-from Control import Control
+
 class TV:
     numTV = 0
     def __init__(self, marca, estado):
@@ -7,7 +7,7 @@ class TV:
         self._canal = 1
         self._precio = 500
         self._volumen = 1
-        self._control = Control
+        self._control = None
         TV.numTV += 1
 
     
